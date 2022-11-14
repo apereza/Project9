@@ -1,0 +1,21 @@
+class Main{
+    function void main(){
+
+        var int n, res;
+
+        let n = Keyboard.readInt("Enter n: ");
+
+        let n = n * n;
+
+        do Output.printString(" Power of n is =  ");
+        do Output.printInt(n);
+        do Output.println();
+        return;
+
+    }
+
+
+}
+
+
+
